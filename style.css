@@ -1,0 +1,323 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    background-color: rgba(117, 183, 236, 0.568);
+    margin-bottom: 20px;
+    width: 100%;
+    height: 130px;
+}
+
+.logo{
+    font-size: 50px;
+}
+#freshcart{
+    position: absolute;
+    left: 30px;
+    margin-left: 120px;
+    top: 30px;
+    color: rgb(247, 24, 98);
+}
+.list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: -110px;
+    list-style: none;
+    gap: 30px; 
+    padding: 20px;
+
+}
+#list1:hover,#list2:hover,#list3:hover,#list4:hover{
+    text-decoration: underline;
+    text-shadow: 1px 1px 10px rgba(116, 114, 114, 0.842);
+
+}
+.link{
+    text-decoration: none;
+    color: rgb(247, 24, 98);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#search{
+    text-align: center;
+    width: 30rem;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgba(146, 144, 144, 0.274);
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid grey;
+
+}
+#search:hover{
+    border: 1px solid rgba(255, 255, 255, 0.185);
+
+
+}
+body{
+    background-image: url(img/img10.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#imgcontent{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(17, 56, 78);
+    margin: 20px;
+    box-sizing: border-box;
+}
+#shopbtn{
+    margin: 15px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgba(27, 108, 161, 0.61);
+    border: none;
+    border-radius: 30px;
+
+}
+#shopbtn:hover{
+    background-color: rgba(32, 106, 155, 0.74);
+}
+#btn{
+    color: white;
+    font-size: 2rem;
+    padding: 20px;
+    text-decoration: none;
+}
+#fresh{
+    color: rgb(247, 24, 98);
+    position: absolute;
+    margin-top: -10rem;
+    margin-left: 33rem;
+    font-size: 3rem;
+    font-weight: bold;
+    animation-name: animationexample;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes animationexample{
+    from{
+        font-size: 3rem;
+    }
+    to{
+        font-size: 3.5rem;
+    }
+}
+.animation{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 30px rgba(49, 49, 49, 0.863);
+    border: 1px solid rgba(95, 90, 90, 0.63);
+    animation-name: animationslide;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+}
+
+@keyframes animationslide{
+    0%{
+        background-image: url("/img/shoppingimg1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 500px;
+        height: 350px;
+    }
+    25%{
+        background-image: url("/img/shoppingimg2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 500px;
+        height: 350px;
+    }
+    50%{
+        background-image: url("/img/shoppingimg3.jpg");
+        background-repeat: no-repeat;
+        backgroud-size: cover;
+        width: 500px;
+        height: 350px;
+    }
+    75%{
+        background-image: url("/img/shoppingimg4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 500px;
+        height: 350px;
+    }
+    100%{
+        background-image: url("/img/shoppingimg5.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 500px;
+        height: 350px;
+    }
+}
+
+.heading1{
+    padding: 10px;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.heading2{
+    padding: 20px;
+    margin: 10px;
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+    font-size: 25px;
+}
+#indeximg{
+    border-radius: 40px 5px;
+    border: 1px solid rgba(35, 121, 233, 0.664);
+    opacity: 0.8;
+    box-shadow: 2px 2px 10px blue;
+    cursor: not-allowed;
+
+}
+
+
+/* shop page */
+
+#symbols{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    gap: 40px;
+    margin: 30px;
+    padding: 10px;
+
+}
+.symlink{
+    text-decoration: none;
+    color: rgb(247, 24, 98);
+    font-size: 30px;
+    padding: 10px;
+    width: 10px;
+}
+.symlink:hover{
+    text-decoration: underline;
+    text-shadow: 1px 1px 3px rgba(124, 123, 123, 0.719);
+    
+}
+.imgsymbols{
+    width: 40px;
+}
+#Categories{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(17, 56, 78);
+
+}
+.images{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgba(48, 136, 170, 0.644);
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgb(85, 84, 84);
+
+}
+.images:hover{
+    opacity: 0.89;
+    border: 1px solid rgba(12, 12, 12, 0.774);
+}
+#contentimg{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;    
+    gap: 20px;
+}
+#back{
+    margin-bottom: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.back{
+
+    padding-left: 10px; 
+    width: 20px;
+    font-size: 30px;
+}
+.backicon{
+    padding-left: 10px;
+    width: 50px;
+    font-size: 30px;
+}
+#main{
+    background-color: rgba(117, 183, 236, 0.568);
+
+}
+.center_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+
+}
+.desing_image{
+    width: 350px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(48, 136, 170, 0.644);
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgb(85, 84, 84);
+}
+
+.desing_image:hover{
+    opacity: 0.89;
+    border: 1px solid rgba(12, 12, 12, 0.774);
+}
+.buy_btn{
+    width: 250px;
+    height: auto;
+    background-color: white;
+    border: 2px solid rgba(48, 136, 170, 0.644);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.buy_btn:hover{
+    box-shadow: 1px 1px 10px rgb(85, 84, 84);
+
+
+}
+.buybutton{
+    text-align: center;
+}
+.description{
+    padding: 20px;
+    margin: 10px;
+}
+.desc_head{
+    font-weight: bolder;
+    font-size: 35px;
+}
+.para{
+    font-size: 25px;
+    padding: 30px;
+    line-height: 35px;
+    
+}
+.option{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
